@@ -9,7 +9,7 @@ Threads SSL Pinning Bypass for Android – intercept Threads traffic.
 <img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/32f2dd67-f2cd-43ce-9be8-194092b8d7fe" />
 
 
-▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/3dae25b3-9c9f-4284-9dfd-90ae73ff7746)
+▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/bf57e3d7-9c74-4ac2-8cd2-c67a3e482721)
 
 ---
 
