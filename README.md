@@ -82,12 +82,6 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 ---
 
-## 🔑 How It Works
-
-The SSL/TLS certificate pinning mechanism in Threads validates server certificates against a set of embedded pins at the native library level. This bypass patches the certificate verification logic in the compiled ARM64/x86_64 binary, causing the pinning check to always succeed — allowing proxy tools with custom CA certificates to intercept traffic seamlessly.
-
----
-
 ## ❓ FAQ
 
 **Q: Does this require root access?**
