@@ -24,9 +24,10 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Threads SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/e82b8e67-daf9-441b-b657-96f416c42936" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/857e3cad-36e5-4cca-af39-5ddac55a28d6" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/a2020ea7-5adc-4630-93f5-9603c6b2caa9)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/92d605ca-c7dd-490b-aae1-f4d7f1f96c35)
 
 ---
 
@@ -34,7 +35,7 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 | App | Version | Status |
 |-----|---------|--------|
-| Threads | **416.0.0.29.66** | ✅ Bypassed |
+| Threads | **417.0.0.55.76** | ✅ Bypassed |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
