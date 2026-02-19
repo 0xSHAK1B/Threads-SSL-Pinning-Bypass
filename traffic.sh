@@ -1,0 +1,49 @@
+POST /api/v1/bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/ HTTP/2
+host: i.instagram.com
+accept-language: en-US
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+ig-intended-user-id: 0
+priority: u=3
+x-bloks-is-layout-rtl: false
+x-bloks-prism-button-version: CONTROL
+x-bloks-prism-colors-enabled: false
+x-bloks-prism-extended-palette-gray: false
+x-bloks-prism-extended-palette-indigo: false
+x-bloks-prism-extended-palette-polish-enabled: false
+x-bloks-prism-extended-palette-red: false
+x-bloks-prism-extended-palette-rest-of-colors: false
+x-bloks-prism-font-enabled: true
+x-bloks-prism-indigo-link-version: 0
+x-bloks-version-id: 8d1e15c549b0723b6a2bbcf07e9689b0c5c869648f81318e22062266491f57d8
+x-fb-client-ip: True
+x-fb-connection-type: WIFI
+x-fb-friendly-name: IgApi: bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/
+x-fb-request-analytics-tags: {"network_tags":{"product":"3419628305025917","surface":"undefined","request_category":"api","purpose":"fetch","retry_attempt":"0"}}
+x-fb-server-cluster: True
+x-ig-android-id: android-37e8a9af442da8ad
+x-ig-app-id: 3419628305025917
+x-ig-app-locale: en_US
+x-ig-attest-params: (Removed)
+x-ig-bandwidth-speed-kbps: -1.000
+x-ig-bandwidth-totalbytes-b: 0
+x-ig-bandwidth-totaltime-ms: 0
+x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template
+x-ig-capabilities: 3brTv10=
+x-ig-connection-type: WIFI
+x-ig-device-id: b4fe008e-9663-41c5-b2c0-98c972216d54
+x-ig-device-locale: en_US
+x-ig-family-device-id: ae9af023-3217-4422-aab6-ac1f79586e30
+x-ig-is-foldable: false
+x-ig-mapped-locale: en_US
+x-ig-nav-chain: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template:1:button:1771514039.913::
+x-ig-timezone-offset: 21600
+x-ig-www-claim: 0
+x-mid: aZcotwABAAHNZk4pbisn1sie-1Ja
+x-pigeon-rawclienttime: 1771514053.827
+x-pigeon-session-id: UFS-259c20d5-be0d-4591-8219-386f1f8ad90f-0
+x-tigon-is-retry: False
+accept-encoding: zstd
+content-length: 4133
+user-agent: Barcelona 417.0.0.55.76 Android (30/11; 274dpi; 720x1640; device_name; device_model ; device_model; mt6765; en_US; 886688518)
+x-fb-conn-uuid-client: 3fdf6be7efdf36a62fe0a7649ddbaf9a
+x-fb-http-engine: Tigon/MNS/TCP
