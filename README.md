@@ -13,12 +13,6 @@
 
 This project provides a pre-patched **Threads APK** with SSL/TLS certificate pinning disabled, allowing security researchers and developers to capture and analyze Threads HTTPS traffic using standard MITM proxy tools.
 
-**Key highlights:**
-
-- ✅ No root required (also supports rooted devices)
-- ✅ Compatible with Android emulators (Nox, LDPlayer)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ ARM64-v8a & x86_64 architecture support
 
 ---
 
@@ -80,22 +74,6 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 4. **Launch Threads** and start capturing HTTPS requests and responses.
 
 > **Tip:** Make sure to install and trust the proxy's CA certificate on your device for full HTTPS decryption.
-
----
-
-## ❓ FAQ
-
-**Q: Does this require root access?**
-A: No. The patched APK works on both rooted and non-rooted Android devices.
-
-**Q: Will this work on iOS?**
-A: No. This bypass targets the Android version of Threads only.
-
-**Q: Can I use this with Burp Suite?**
-A: Yes. Configure Burp Suite as a proxy, install the Burp CA certificate on your device/emulator, and launch the patched Threads app.
-
-**Q: The patched version doesn't match the latest Threads release — what do I do?**
-A: [Contact me on Telegram](https://t.me/MUH4MM4DSH4KIB) for the latest bypassed build.
 
 ---
 
