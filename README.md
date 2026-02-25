@@ -28,7 +28,7 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 | App | Version | Status |
 |-----|---------|--------|
-| Threads | **417.0.0.55.76** | ✅ Bypassed |
+| Threads | **418.0.0.54.77** | ✅ Bypassed |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
