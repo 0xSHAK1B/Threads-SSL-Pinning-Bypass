@@ -14,7 +14,7 @@ x-bloks-prism-extended-palette-red: false
 x-bloks-prism-extended-palette-rest-of-colors: false
 x-bloks-prism-font-enabled: true
 x-bloks-prism-indigo-link-version: 0
-x-bloks-version-id: 58b4888388a4950367bf72e65b7210a4c6f999e076ced959fef9cba180f07a05
+x-bloks-version-id: aba62ff14607937c6fd5e5608137aa1e80bbc2a6107231c064bc3b956758ab67
 x-fb-client-ip: True
 x-fb-connection-type: WIFI
 x-fb-friendly-name: IgApi: bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/
@@ -24,25 +24,25 @@ x-ig-android-id: android-37e8a9af442da8ad
 x-ig-app-id: 3419628305025917
 x-ig-app-locale: en_US
 x-ig-attest-params: 
-x-ig-bandwidth-speed-kbps: 337.000
+x-ig-bandwidth-speed-kbps: 294.000
 x-ig-bandwidth-totalbytes-b: 57399
-x-ig-bandwidth-totaltime-ms: 170
+x-ig-bandwidth-totaltime-ms: 195
 x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template
 x-ig-capabilities: 3brTv10=
 x-ig-connection-type: WIFI
-x-ig-device-id: e8f9e29f-6663-4579-80f8-a2e30faaa793
+x-ig-device-id: 8a20b21a-2663-427b-bf03-6189579af978
 x-ig-device-locale: en_US
-x-ig-family-device-id: 71bf4983-1b6f-4640-aac4-2c7f947b9b27
+x-ig-family-device-id: a859725e-7402-4fbc-9152-cc9cc4a61cd8
 x-ig-is-foldable: false
 x-ig-mapped-locale: en_US
 x-ig-timezone-offset: 21600
 x-ig-www-claim: 0
-x-mid: abHw0QABAAEgjJmf5DH9HgzyxeIH
-x-pigeon-rawclienttime: 1773269215.512
-x-pigeon-session-id: UFS-4166c727-82fe-42d0-9859-1c087a241525-0
+x-mid: abpJeQABAAFCJ6vcTNXBIYn8zhjn
+x-pigeon-rawclienttime: 1773816200.907
+x-pigeon-session-id: UFS-aa12af5a-7bf2-4b28-a3f7-a243960fbf2e-0
 x-tigon-is-retry: False
 accept-encoding: zstd
-content-length: 4157
-user-agent: Barcelona 420.0.0.58.72 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 904577743)
-x-fb-conn-uuid-client: 2df60538d8c85677c26dc56adfae6131
+content-length: 4295
+user-agent: Barcelona 421.0.0.50.67 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 909555707)
+x-fb-conn-uuid-client: b35cc065a51a7fc9d65ea24d8c47ef9f
 x-fb-http-engine: Tigon/MNS/TCP
