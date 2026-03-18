@@ -18,12 +18,10 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/857238b9-d68f-43d8-9721-2fda9e3fcb2e" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/9e730bc9-222e-4ad4-bb3f-b6acab68cf92" />
 
 
-
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/1a47d5ce-0383-4431-a495-b8998ecd6001)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/7db69b4d-85dd-4b52-8065-4556410177d8)
 
 ---
 
@@ -31,7 +29,7 @@ This project provides a pre-patched **Threads APK** with SSL/TLS certificate pin
 
 | App | Version | Status |
 |-----|---------|--------|
-| Threads | **420.0.0.58.72** | ✅ Bypassed |
+| Threads | **421.0.0.50.67** | ✅ Bypassed |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
