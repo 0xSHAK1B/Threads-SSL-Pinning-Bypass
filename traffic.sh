@@ -18,19 +18,19 @@ x-bloks-prism-colors-enabled: false
 
 x-bloks-prism-extended-palette-gray: false
 
-x-bloks-prism-extended-palette-indigo: false
+x-bloks-prism-extended-palette-indigo: true
 
 x-bloks-prism-extended-palette-polish-enabled: false
 
-x-bloks-prism-extended-palette-red: false
+x-bloks-prism-extended-palette-red: true
 
-x-bloks-prism-extended-palette-rest-of-colors: false
+x-bloks-prism-extended-palette-rest-of-colors: true
 
 x-bloks-prism-font-enabled: true
 
-x-bloks-prism-indigo-link-version: 0
+x-bloks-prism-indigo-link-version: 1
 
-x-bloks-version-id: a916ff86a8fb261abb0992b0c3719c916d2795856245a469b197ae47e8d5f82b
+x-bloks-version-id: 41d694d3fb86fef4ff9d126b49cc45c651e1e4d7b1d6fb2aa16bf884bcde4816
 
 x-fb-client-ip: True
 
@@ -50,11 +50,11 @@ x-ig-app-locale: en_US
 
 x-ig-attest-params: 
 
-x-ig-bandwidth-speed-kbps: -1.000
+x-ig-bandwidth-speed-kbps: 409.000
 
-x-ig-bandwidth-totalbytes-b: 0
+x-ig-bandwidth-totalbytes-b: 54518
 
-x-ig-bandwidth-totaltime-ms: 0
+x-ig-bandwidth-totaltime-ms: 133
 
 x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template
 
@@ -62,11 +62,11 @@ x-ig-capabilities: 3brTv10=
 
 x-ig-connection-type: WIFI
 
-x-ig-device-id: 6ceea8ba-9663-4837-94b3-cc87c6c6986e
+x-ig-device-id: c9c085bc-0663-44a2-8867-877db3b5c003
 
 x-ig-device-locale: en_US
 
-x-ig-family-device-id: c42ea3f5-08e6-41c5-96c6-addbcdbc66ec
+x-ig-family-device-id: b713e4e3-a614-4a95-a22b-84ee40ff5609
 
 x-ig-is-foldable: false
 
@@ -76,20 +76,20 @@ x-ig-timezone-offset: 21600
 
 x-ig-www-claim: 0
 
-x-mid: ac94NgABAAGyCg6nQLKxzxBwVUCA
+x-mid: ad8-owABAAFzO6wAv2P-TvuryBgd
 
-x-pigeon-rawclienttime: 1775204425.129
+x-pigeon-rawclienttime: 1776238248.178
 
-x-pigeon-session-id: UFS-c86cf715-35c5-4bd4-96d5-a2f2741524f7-0
+x-pigeon-session-id: UFS-2a1d8b80-ef16-43f1-8b09-9dbe80c3e948-0
 
 x-tigon-is-retry: False
 
 accept-encoding: zstd
 
-content-length: 4241
+content-length: 4254
 
-user-agent: Barcelona 423.3.0.54.66 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 926252368)
+user-agent: Barcelona 425.0.0.50.59 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 939199048)
 
-x-fb-conn-uuid-client: 9bc1608535eed55d9dd7dfcfbf3a05c8
+x-fb-conn-uuid-client: 1c3e5b566d8cd3e5a5bd50498fa2ddba
 
 x-fb-http-engine: Tigon/MNS/TCP
