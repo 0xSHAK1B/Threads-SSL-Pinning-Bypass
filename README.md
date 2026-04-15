@@ -25,9 +25,10 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 
 ## Proof of Concept
 
-<img width="720" height="1640" alt="Threads SSL Pinning Bypass PoC – Intercepted HTTPS Traffic" src="https://github.com/user-attachments/assets/0fa79adc-5afc-4daf-bf1f-ba39c00ea4cc" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/c270ea91-4ff0-4a35-a74e-99e43e776f13" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/db820e38-0c47-44c9-8be4-9f8220b13ea9)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/ae0c4b1c-7a4d-4ccf-a86e-ffeee1524970)
 
 ---
 
@@ -35,8 +36,8 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 
 | App | Version | Architecture | Status |
 |-----|---------|--------------|--------|
-| Threads | **423.3.0.54.66** | `arm64-v8a` | ✅ Bypassed |
-| Threads | **423.3.0.54.66** | `x86_64` | ✅ Bypassed |
+| Threads | **425.0.0.50.59** | `arm64-v8a` | ✅ Bypassed |
+| Threads | **425.0.0.50.59** | `x86_64` | ✅ Bypassed |
 
 > Need a **newer version**? [Contact me on Telegram](https://t.me/MUH4MM4DSH4KIB) for the latest bypassed build.
 
