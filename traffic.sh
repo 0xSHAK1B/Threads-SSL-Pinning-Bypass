@@ -30,7 +30,7 @@ x-bloks-prism-font-enabled: true
 
 x-bloks-prism-indigo-link-version: 1
 
-x-bloks-version-id: 41d694d3fb86fef4ff9d126b49cc45c651e1e4d7b1d6fb2aa16bf884bcde4816
+x-bloks-version-id: 2c55e3c7ed37bb05195d9a6f418514d19631549036e40a3f47b47fa86ddc93e1
 
 x-fb-client-ip: True
 
@@ -50,11 +50,11 @@ x-ig-app-locale: en_US
 
 x-ig-attest-params: 
 
-x-ig-bandwidth-speed-kbps: 409.000
+x-ig-bandwidth-speed-kbps: 313.000
 
 x-ig-bandwidth-totalbytes-b: 54518
 
-x-ig-bandwidth-totaltime-ms: 133
+x-ig-bandwidth-totaltime-ms: 174
 
 x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template
 
@@ -62,11 +62,11 @@ x-ig-capabilities: 3brTv10=
 
 x-ig-connection-type: WIFI
 
-x-ig-device-id: c9c085bc-0663-44a2-8867-877db3b5c003
+x-ig-device-id: 6b07b3dc-6663-4fab-b541-3547e9a9a2e8
 
 x-ig-device-locale: en_US
 
-x-ig-family-device-id: b713e4e3-a614-4a95-a22b-84ee40ff5609
+x-ig-family-device-id: 980833b2-34aa-4ab1-9707-6454de6c45e4
 
 x-ig-is-foldable: false
 
@@ -76,20 +76,20 @@ x-ig-timezone-offset: 21600
 
 x-ig-www-claim: 0
 
-x-mid: ad8-owABAAFzO6wAv2P-TvuryBgd
+x-mid: afCWDgABAAGPsZ7fIlFm-RJsO5SO
 
-x-pigeon-rawclienttime: 1776238248.178
+x-pigeon-rawclienttime: 1777374746.386
 
-x-pigeon-session-id: UFS-2a1d8b80-ef16-43f1-8b09-9dbe80c3e948-0
+x-pigeon-session-id: UFS-f14aab87-d966-430e-8f8b-83201850634b-0
 
 x-tigon-is-retry: False
 
 accept-encoding: zstd
 
-content-length: 4254
+content-length: 4296
 
-user-agent: Barcelona 425.0.0.50.59 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 939199048)
+user-agent: Barcelona 427.0.0.48.72 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 954598736)
 
-x-fb-conn-uuid-client: 1c3e5b566d8cd3e5a5bd50498fa2ddba
+x-fb-conn-uuid-client: 6cda8d014e9a124470331cd673862cbf
 
 x-fb-http-engine: Tigon/MNS/TCP
