@@ -9,17 +9,9 @@
 
 ---
 
-## What Is Threads SSL Pinning Bypass?
+## Overview of this project
 
 Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third-party proxy tools from intercepting its HTTPS traffic. This repository provides a **pre-patched Threads APK** with certificate pinning disabled, enabling security researchers, penetration testers, and developers to capture and inspect Threads network requests and API responses.
-
-### Why Bypass Threads SSL Pinning?
-
-- **Security research** — Audit Threads API endpoints for vulnerabilities and data exposure
-- **Penetration testing** — Test Threads against OWASP Mobile Top 10 risks
-- **API reverse engineering** — Understand Threads private API structure, request signing, and authentication flows
-- **Traffic analysis** — Monitor what data Threads sends and receives in real time
-- **Bug bounty hunting** — Discover and report security issues to Meta's bug bounty program
 
 ---
 
@@ -95,19 +87,6 @@ Download the SSL pinning bypassed Threads APK from this repository's [Releases](
 2. Browse, post, or interact normally
 3. Watch **decrypted HTTPS requests and responses** appear in your proxy tool in real time
 
----
-
-
-## Frequently Asked Questions
-
-### Does this work without root?
-**Yes.** The patched APK works on both rooted and non-rooted Android devices. No Magisk, Xposed, or Frida required.
-
-### Which proxy tool should I use?
-For **mobile-only** setups, use **Reqable** or **Proxypin** directly on your Android device. For **PC-based** interception, **Burp Suite** or **mitmproxy** offer more advanced analysis features.
-
-### Can I use this for Instagram or Facebook too?
-Check out my other repositories for SSL pinning bypass solutions for [Instagram](https://github.com/MUH4MM4D-SH4KIB), [Facebook](https://github.com/MUH4MM4D-SH4KIB), and other Meta apps.
 
 ---
 
@@ -125,10 +104,3 @@ Check out my other repositories for SSL pinning bypass solutions for [Instagram]
 For the **most up-to-date** SSL pinning bypassed Threads APK and support:
 
 [![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-
----
-
-
-## Tags
-
-`threads ssl pinning bypass` · `threads ssl pinning bypass 2026` · `threads certificate pinning bypass` · `threads mitm proxy` · `threads traffic interception` · `threads burp suite android` · `threads https decrypt` · `threads proxy no root` · `meta threads security research` · `threads api reverse engineering` · `threads ssl bypass no root` · `threads frida bypass` · `threads network traffic capture` · `threads ssl unpinning` · `bypass ssl pinning threads android` · `threads apk ssl bypass` · `threads mitmproxy` · `threads reqable proxy` · `meta fizz tls bypass` · `threads penetration testing` · `android ssl pinning bypass 2026` · `intercept threads traffic` · `threads security audit` · `threads certificate bypass arm64` · `threads https interception android`
