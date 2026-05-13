@@ -17,24 +17,31 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 
 ## Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/591e7042-fa08-4fa6-acae-0c86d858e420" />
+
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/397c8c7d-fd68-4db6-8def-a7216809d9a1" />
 
 
 
-
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/8e18a3c5-d215-440b-b687-2df3dfe4d38e)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/26542723-194f-4819-b9c7-d065552b63de)
 
 ---
 
-## Supported Threads Version
+## 📋 Supported Threads Version
 
-| App | Version | Architecture | Status |
-|-----|---------|--------------|--------|
-| Threads | **428.0.0.46.66** | `arm64-v8a` | ✅ Bypassed |
-| Threads | **428.0.0.46.66** | `x86_64` | ✅ Bypassed |
+| App | Version | Status |
+|-----|---------|--------|
+| Threads | **429.0.0.43.72** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Threads | **370.0.0.40.109** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
-> Need a **newer version**? [Contact me on Telegram](https://t.me/MUH4MM4DSH4KIB) for the latest bypassed build.
+> For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+
+---
+## ⚙️ Supported Architectures
+
+| Architecture | Support |
+|---|---|
+| `arm64-v8a` | ✅ |
+| `x86_64` | ✅ |
 
 ---
 
