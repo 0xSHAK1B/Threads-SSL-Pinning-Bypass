@@ -18,11 +18,12 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 ## Proof of Concept
 
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/397c8c7d-fd68-4db6-8def-a7216809d9a1" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/49dcbb5e-79d5-47ad-a080-7e44b14364ee" />
 
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/26542723-194f-4819-b9c7-d065552b63de)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/72fb0c8c-ea04-4947-aa0c-1dfd9e010fc5)
 
 ---
 
