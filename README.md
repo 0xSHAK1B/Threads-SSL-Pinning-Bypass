@@ -31,7 +31,7 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 
 | App | Version | Status |
 |-----|---------|--------|
-| Threads | **429.0.0.43.72** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Threads | **430.0.0.46.79** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
