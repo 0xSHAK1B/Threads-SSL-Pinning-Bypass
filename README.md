@@ -18,7 +18,7 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 ## Proof of Concept
 
 
-<img width="1920" height="912" alt="Image" src="https://github.com/user-attachments/assets/66a2ae85-d949-46bc-bf49-7c9b3283a558" />
+<img width="1044" height="500" alt="Image" src="https://github.com/user-attachments/assets/936730c2-c1eb-41a1-9a01-1e0f109e26f6" />
 
 
 ---
@@ -27,7 +27,7 @@ Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third
 
 | App | Version | Status |
 |-----|---------|--------|
-| Threads | **433.0.0.47.68** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Threads | **434.0.0.41.74** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
