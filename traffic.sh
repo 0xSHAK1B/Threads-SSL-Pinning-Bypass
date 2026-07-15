@@ -1,48 +1,47 @@
-POST /api/v1/bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/ HTTP/2
-host: i.instagram.com
-accept-language: en-GB, en-US
-content-type: application/x-www-form-urlencoded; charset=UTF-8
-ig-intended-user-id: 0
-priority: u=3
-x-bloks-is-layout-rtl: false
-x-bloks-prism-button-version: CONTROL
-x-bloks-prism-colors-enabled: false
-x-bloks-prism-extended-palette-gray: false
-x-bloks-prism-extended-palette-indigo: true
-x-bloks-prism-extended-palette-polish-enabled: false
-x-bloks-prism-extended-palette-red: true
-x-bloks-prism-extended-palette-rest-of-colors: true
-x-bloks-prism-font-enabled: true
-x-bloks-prism-indigo-link-version: 1
-x-bloks-version-id: 4e9c019d4a6fbcbcd87bb1f4d92dffc5c2e416257eea611d5ae1b3f43c1a9913
-x-fb-client-ip: True
-x-fb-connection-type: WIFI
-x-fb-friendly-name: IgApi: bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/
-x-fb-request-analytics-tags: {"network_tags":{"product":"3419628305025917","surface":"undefined","request_category":"api","purpose":"fetch","retry_attempt":"0"}}
-x-fb-server-cluster: True
-x-ig-android-id: android-030c3921c046fe9c
-x-ig-app-id: 3419628305025917
-x-ig-app-locale: en_GB
-x-ig-attest-params: {"attestation":[{"version":2,"type":"keystore","errors":[0],"challenge_nonce":"8rvE6btK3uIHGOWQkfjsieoFnDyP4hVm","signed_nonce":"MEUCIQCCQn2Xrz6t_Sl3WJq0lEGnNLKV3CYf-uRb_stVzcm2gwIgOnnKvrdreQAFIyTii0WxH-jzaw4qf4bgxgpj0emRerI=","key_hash":"377de8babf81da3b4c63e622ea23ba1cd5c8890132035e572b6aa60bc0d11721","certificate_chain":"-----BEGIN CERTIFICATE-----\nMIICrDCCAlKgAwIBAgIBATAKBggqhkjOPQQDAjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIDNi\nNWM0YWFmYjhiNTgyN2U0MjcxMDYxYmZhNTAyMTMxMB4XDTI2MDYyNzAzNTM1MloXDTM2MDYyNzAz\nNTM1MlowHzEdMBsGA1UEAxMUQW5kcm9pZCBLZXlzdG9yZSBLZXkwWTATBgcqhkjOPQIBBggqhkjO\nPQMBBwNCAASsYBM6920QpdMoAyOyMCo0BHm58KgYisHFB7U0hffpwxEItvKyAswhrPHMMjPBDiPr\ndpPCzluU5KRJMbVfab7go4IBYzCCAV8wDwYDVR0PAQH\/BAUDAweAADCCAUoGCisGAQQB1nkCAREE\nggE6MIIBNgICASwKAQECAgEsCgEBBCB2MGZFNW5GdDRpSnNTM2hLbVJNcVRhT3hwd1BZR3o3ZwQA\nMFu\/hT0IAgYBnwc2Y1y\/hUVLBEkwRzEhMB8EF2NvbS5pbnN0YWdyYW0uYmFyY2Vsb25hAgQebbZS\nMSIEIKQNqApZ0XDKqVDPFcGMRU1Ho5smmJ2LZA7NdFunG\/XcMIGkoQgxBgIBAwIBAqIDAgEDowQC\nAgEApQUxAwIBBKoDAgEBv4N3AgUAv4U+AwIBAL+FQEwwSgQgAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAABAQAKAQIEIDww5yj1gpXhSay77cPHfr392WAQWJhEZnrxL3dStSPxv4VBBQID\nAknwv4VCBQIDAxcPv4VOBgIEATUBGb+FTwYCBAE0\/sEwCgYIKoZIzj0EAwIDSAAwRQIgTtC3Js+b\nHD+icwzGaM0mXJAIWRD4xyye4dmA24yOTpMCIQDE2In\/Gf\/5PrUv46KAfEMSir87c51dNRh7f68o\n\/1YNHA==\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIB4TCCAYegAwIBAgIQO1xKr7i1gn5CcQYb+lAhMTAKBggqhkjOPQQDAjApMRMwEQYDVQQKEwpH\nb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwHhcNMjYwNjE0MTAxNDU3WhcNMjYwNjI3MjMw\nNjU1WjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIDNiNWM0YWFmYjhiNTgyN2U0MjcxMDYxYmZh\nNTAyMTMxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzYZxkung6d4NIwBQyzuzd5nJJBl01xa0\njCTOiVhn8omVGlpgwPJuePDnwKdfqPb4HMWtQ9gDSu1vOFnUpJSie6OBgDB+MB0GA1UdDgQWBBQp\nVJAxGfTEI9C4yV98bY8fakFVXDAfBgNVHSMEGDAWgBQgSHf1KYj9xiVGcCudQbARnaBWHTAPBgNV\nHRMBAf8EBTADAQH\/MA4GA1UdDwEB\/wQEAwICBDAbBgorBgEEAdZ5AgEeBA2iARggA2dOb3RoaW5n\nMAoGCCqGSM49BAMCA0gAMEUCIQCR6XODqKhGrGkTHOC\/ux1ss9cGdMpXNvi8KMY16++EzgIgD3vC\nEtaHI\/LPkkTRuPTAbMD6\/67YeK+T0w0lqVnWltI=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIC7zCCAnagAwIBAgIUAIKXtf1vil\/IO2znmkYezlZsohUwCgYIKoZIzj0EAwMwKTETMBEGA1UE\nChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EyMB4XDTI2MDUyODE5MzY1MVoXDTI2MDgw\nNjE5MzY1MFowKTETMBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EzMFkwEwYH\nKoZIzj0CAQYIKoZIzj0DAQcDQgAEu\/1QjEDIHzEmGa54oX+cFsG2Yfk10oQEf+mO2PKD7MimODhq\nmhrBKxIsPvHVCRQXNTwydEiDvwPFW7GkFiKAwqOCAXowggF2MA4GA1UdDwEB\/wQEAwICBDAPBgNV\nHRMBAf8EBTADAQH\/MB0GA1UdDgQWBBQgSHf1KYj9xiVGcCudQbARnaBWHTAfBgNVHSMEGDAWgBT7\nlO504bVwFpWJjoYiKJ1MD+HDHTCBjQYIKwYBBQUHAQEEgYAwfjB8BggrBgEFBQcwAoZwaHR0cDov\nL3ByaXZhdGVjYS1jb250ZW50LTY5OTQ4OTkxLTAwMDAtMjU5MC1iYjRkLTg4M2QyNGYzMmYwYy5z\ndG9yYWdlLmdvb2dsZWFwaXMuY29tL2IxZmU3MWE0MWJjMmNmNWU3NjM0L2NhLmNydDCBggYDVR0f\nBHsweTB3oHWgc4ZxaHR0cDovL3ByaXZhdGVjYS1jb250ZW50LTY5OTQ4OTkxLTAwMDAtMjU5MC1i\nYjRkLTg4M2QyNGYzMmYwYy5zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2IxZmU3MWE0MWJjMmNmNWU3\nNjM0L2NybC5jcmwwCgYIKoZIzj0EAwMDZwAwZAIwQu2SeUSXt24iSWsY69NSGeMskivODfajeSfo\n8JYszHmkRekgnJL3DSyeNF5eCvbeAjBgkId9vU\/wGrWVy2IXWsDhmUqV09k1EBwFAOzbEenWAFdz\n\/ul5mMWpJEeWDzayPvA=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIICZDCCAeugAwIBAgIRAPLC\/gLfzdARgeSj5rNpoowwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwT\nS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExM\nQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MjAwMTExWhcNMjkwMjA4MjAwMTExWjApMRMwEQYDVQQK\nEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATk\nwn4jOZw\/zpxhsBn427C8Xz684+3Ajq5zsIzXwYlQPGieyFBuNxkUUFSa4YzZObqTOrgI9iFcfTBq\nOuOlyEtIuipjVowV9UCddBKO5ndqPTEk8Dd2RWn4yMtUTnyMMpGjga0wgaowHwYDVR0jBBgwFoAU\nUjK7LPtGQ5vc1oGpDmVm4DRB6kAwDwYDVR0TAQH\/BAUwAwEB\/zAdBgNVHQ4EFgQU+5TudOG1cBaV\niY6GIiidTA\/hwx0wDgYDVR0PAQH\/BAQDAgEGMEcGA1UdHwRAMD4wPKA6oDiGNmh0dHBzOi8vYW5k\ncm9pZC5nb29nbGVhcGlzLmNvbS9hdHRlc3RhdGlvbi9rZXlfY2ExLmNybDAKBggqhkjOPQQDAwNn\nADBkAjArwb7NmSVBlasMdMRjY0FFEum0b+SUZTMmvBT5AGYzk8xGCi2Mj2NZdchxZfxHUJgCMDse\naiAzoixNISk40rfoR4vMvs7n9r4fgEgmb+9KQbpDgdq0+90mzcAL4vKr4hWSxA==\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5\/8OgN52BgUwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwT\nS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExM\nQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQD\nDBNLZXkgQXR0ZXN0YXRpb24gQ0ExMRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUg\nTExDMQswCQYDVQQGEwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4H\njqCtG\/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5Eczm34A5\nFNijV3s0\/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH\/BAUwAwEB\/zAOBgNVHQ8BAf8EBAMC\nAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepAMAoGCCqGSM49BAMDA2gAMGUCMETfjPO\/\nHwqReR2CS7p0ZWoD\/LHs6hDi422opifHEUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpG\nRFiJtQEOOTp\/+s1GcxeYuR2zh\/80lQyu9vAFCj6E4AXc+osmRg==\n-----END CERTIFICATE-----"}]}
-x-ig-bandwidth-speed-kbps: -1.000
-x-ig-bandwidth-totalbytes-b: 0
-x-ig-bandwidth-totaltime-ms: 0
-x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template
-x-ig-capabilities: 3brTv10=
-x-ig-connection-type: WIFI
-x-ig-device-id: 60122e79-1663-4fbc-95e1-14625dd5d58e
-x-ig-device-locale: en_GB
-x-ig-family-device-id: 7702ef57-3ca8-47c3-bcbc-1bdbfc323d28
-x-ig-is-foldable: false
-x-ig-mapped-locale: en_GB
-x-ig-timezone-offset: 21600
-x-ig-www-claim: 0
-x-mid: aj9JTwABAAG6eASjvIUjbnlz-QSk
-x-pigeon-rawclienttime: 1782532436.748
-x-pigeon-session-id: UFS-ab7f1673-7760-48bc-849d-3f2c308e29a6-0
-x-tigon-is-retry: False
-accept-encoding: zstd
-content-length: 4318
-user-agent: Barcelona 435.0.0.36.76 Android (35/15; 420dpi; 1080x2392; Nothing; A001; Galaga; mt6878; en_GB; 1001219512)
-x-fb-conn-uuid-client: a41b93ea3cadb8b04ecf959dedfc0ab1
-x-fb-http-engine: Tigon/MNS/TCP
+curl -X POST 'https://i.instagram.com/api/v1/bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/' \
+  -H 'accept-language: en-GB, en-US' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'ig-intended-user-id: 0' \
+  -H 'priority: u=3' \
+  -H 'x-bloks-is-layout-rtl: false' \
+  -H 'x-bloks-prism-button-version: CONTROL' \
+  -H 'x-bloks-prism-colors-enabled: false' \
+  -H 'x-bloks-prism-extended-palette-gray: false' \
+  -H 'x-bloks-prism-extended-palette-indigo: true' \
+  -H 'x-bloks-prism-extended-palette-polish-enabled: false' \
+  -H 'x-bloks-prism-extended-palette-red: true' \
+  -H 'x-bloks-prism-extended-palette-rest-of-colors: true' \
+  -H 'x-bloks-prism-font-enabled: true' \
+  -H 'x-bloks-prism-indigo-link-version: 1' \
+  -H 'x-bloks-version-id: c47ed1a03cc87e55e4c41f1e15c7c7d42a15b94259dbb5a8f1744886ded515ba' \
+  -H 'x-fb-client-ip: True' \
+  -H 'x-fb-connection-type: WIFI' \
+  -H 'x-fb-friendly-name: IgApi: bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/' \
+  -H 'x-fb-request-analytics-tags: {"network_tags":{"product":"3419628305025917","surface":"undefined","request_category":"api","purpose":"fetch","retry_attempt":"0"}}' \
+  -H 'x-fb-server-cluster: True' \
+  -H 'x-ig-android-id: android-030c3921c046fe9c' \
+  -H 'x-ig-app-id: 3419628305025917' \
+  -H 'x-ig-app-locale: en_GB' \
+  -H 'x-ig-attest-params: {"attestation":[{"version":2,"type":"keystore","errors":[0],"challenge_nonce":"BT3tYeEnv8LxUWHuqRhANcfrI9PwFkKp","signed_nonce":"MEYCIQDVQDjcC3fcekLHgLWGe4VlLyPKXVQWTJjALEZR4yyVEQIhAOiX7D0sn6BHGs0RTOoiOY-Jee6vjqcKndh-yG6T80-p","key_hash":"24ccf491dccd6948835054a7e6f9d5a23b19ba94bfc720c1b30d074bc86af4c8","certificate_chain":"-----BEGIN CERTIFICATE-----\nMIICqzCCAlKgAwIBAgIBATAKBggqhkjOPQQDAjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIDIw\nNzU1MDU2YzgwZDUzMzc3OWZiYWJlMzcyNWY2MDhiMB4XDTI2MDcxNTAxMjIzNVoXDTM2MDcxNTAx\nMjIzNVowHzEdMBsGA1UEAxMUQW5kcm9pZCBLZXlzdG9yZSBLZXkwWTATBgcqhkjOPQIBBggqhkjO\nPQMBBwNCAARf+BsMOetkVoB5v+dWSNO+9DzemWBUCG40xxiTJt0MrEY571CL47vLzvCguX7I1nD8\nDtn9Rj7gLIKwVo55Rj7To4IBYzCCAV8wDwYDVR0PAQH\/BAUDAweAADCCAUoGCisGAQQB1nkCAREE\nggE6MIIBNgICASwKAQECAgEsCgEBBCBhOHJscUVoMzV2SEFmb0NUUjBzMmVKbVF4YkZLN2RVOQQA\nMFu\/hT0IAgYBn2NeWSy\/hUVLBEkwRzEhMB8EF2NvbS5pbnN0YWdyYW0uYmFyY2Vsb25hAgQeckxL\nMSIEIKQNqApZ0XDKqVDPFcGMRU1Ho5smmJ2LZA7NdFunG\/XcMIGkoQgxBgIBAwIBAqIDAgEDowQC\nAgEApQUxAwIBBKoDAgEBv4N3AgUAv4U+AwIBAL+FQEwwSgQgAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAABAQAKAQIEIDww5yj1gpXhSay77cPHfr392WAQWJhEZnrxL3dStSPxv4VBBQID\nAknwv4VCBQIDAxcPv4VOBgIEATUBGb+FTwYCBAE0\/sEwCgYIKoZIzj0EAwIDRwAwRAIgOzj5c92a\nCcZ7ZZDn7OwejAtZcl962qyfr8nOO0kcbZsCIBMNwEFUyv\/wieCDYzEoct2rnk8fnpoIBxFQVoYz\nMKmi\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIB4TCCAYegAwIBAgIQIHVQVsgNUzd5+6vjcl9gizAKBggqhkjOPQQDAjApMRMwEQYDVQQKEwpH\nb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwHhcNMjYwNzEwMjMzNDIyWhcNMjYwNzI1MDA1\nMDAzWjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIDIwNzU1MDU2YzgwZDUzMzc3OWZiYWJlMzcy\nNWY2MDhiMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYxLzM8DjS1J5nGwKPAtNtzFK6nv7\/lqM\n0maDFImoCDXeWpiKY6Ga2cnAdP+yMuJYflXlnN+cvThiMEGgOqZ346OBgDB+MB0GA1UdDgQWBBS2\nAcJHv906LBOGpk2QnV\/2VADLaTAfBgNVHSMEGDAWgBT8Ux\/uPNYf5MGTI2DRLoS2CiYJRjAPBgNV\nHRMBAf8EBTADAQH\/MA4GA1UdDwEB\/wQEAwICBDAbBgorBgEEAdZ5AgEeBA2iARiAA2dOb3RoaW5n\nMAoGCCqGSM49BAMCA0gAMEUCIQDO7aLJAN9\/QhjkG3Yw1c8Wj6EZ3HIvefIHqhZnmqTawAIgBZDP\nsHiIOQXscsZJsUQVw51d37TxVii+KN1GsH7jKX4=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIC7jCCAnWgAwIBAgITDhUVFI23xsf3ity6AA6VvPuLvDAKBggqhkjOPQQDAzApMRMwEQYDVQQK\nEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwHhcNMjYwNjI5MDI1NzA5WhcNMjYwOTA3\nMDI1NzA4WjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwWTATBgcq\nhkjOPQIBBggqhkjOPQMBBwNCAATRHLXqjWHKuGYRO+KGBLG40hkD5kZJbQs6C1VCUULNjdev\/X46\nstcEGyOn8EhVNU0FXHhnLyfrF5WU9o9qwMc4o4IBejCCAXYwDgYDVR0PAQH\/BAQDAgIEMA8GA1Ud\nEwEB\/wQFMAMBAf8wHQYDVR0OBBYEFPxTH+481h\/kwZMjYNEuhLYKJglGMB8GA1UdIwQYMBaAFEUg\nMj4fpvmPHNXDRy7UelD+O6jgMIGNBggrBgEFBQcBAQSBgDB+MHwGCCsGAQUFBzAChnBodHRwOi8v\ncHJpdmF0ZWNhLWNvbnRlbnQtNjliNDU2OGMtMDAwMC0yOTBmLWIxYjAtZDRmNTQ3ZWU3YjI4LnN0\nb3JhZ2UuZ29vZ2xlYXBpcy5jb20vOWYzNjEzZWZlYTljNDE4MzliNjUvY2EuY3J0MIGCBgNVHR8E\nezB5MHegdaBzhnFodHRwOi8vcHJpdmF0ZWNhLWNvbnRlbnQtNjliNDU2OGMtMDAwMC0yOTBmLWIx\nYjAtZDRmNTQ3ZWU3YjI4LnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vOWYzNjEzZWZlYTljNDE4Mzli\nNjUvY3JsLmNybDAKBggqhkjOPQQDAwNnADBkAjBW4kp9TOVoSdQcrJ1wiCt74LOScPhd2Z8ibZbt\nIUyYljZacVLgHYPuij+Q1Ypf5x0CMAaBFHg6CXTpR7+tm2KoefVcfF44NrEJXt6bvUnuRzUqA0hJ\niKE3cGuCqtfjYJVnMQ==\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIICZTCCAeugAwIBAgIRALGEywXsUP3JhfDsUyl8+CMwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwT\nS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExM\nQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MTk1NzEwWhcNMjkwMjA4MTk1NzEwWjApMRMwEQYDVQQK\nEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAT1\n9+tRAlmwuauVyRrgHqykkymaEkOS1IYSoXAQyBRvUNEnY5FGqmi44dOWcqMxu0uIbB3in5TD3GsR\n1NBmi3f\/\/mI0aiARbBtdP3YaIff8yy076NY9dPMnBiCMIwjRR2Cjga0wgaowRwYDVR0fBEAwPjA8\noDqgOIY2aHR0cHM6Ly9hbmRyb2lkLmdvb2dsZWFwaXMuY29tL2F0dGVzdGF0aW9uL2tleV9jYTEu\nY3JsMB0GA1UdDgQWBBRFIDI+H6b5jxzVw0cu1HpQ\/juo4DAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0T\nAQH\/BAUwAwEB\/zAfBgNVHSMEGDAWgBRSMrss+0ZDm9zWgakOZWbgNEHqQDAKBggqhkjOPQQDAwNo\nADBlAjBfOXmY1+SCcT\/oWL17AuVS7uoxMXssLksjChHT+VhTMpWu9J42x3G20hHVGTj+3ZICMQDB\nYZjd7+vfuyLVCZkTX7wlvjcRJjvrEWyxvkZE5vlq8c3lwH9JyNBP3OeTd3o8IJs=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5\/8OgN52BgUwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwT\nS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExM\nQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQD\nDBNLZXkgQXR0ZXN0YXRpb24gQ0ExMRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUg\nTExDMQswCQYDVQQGEwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4H\njqCtG\/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5Eczm34A5\nFNijV3s0\/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH\/BAUwAwEB\/zAOBgNVHQ8BAf8EBAMC\nAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepAMAoGCCqGSM49BAMDA2gAMGUCMETfjPO\/\nHwqReR2CS7p0ZWoD\/LHs6hDi422opifHEUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpG\nRFiJtQEOOTp\/+s1GcxeYuR2zh\/80lQyu9vAFCj6E4AXc+osmRg==\n-----END CERTIFICATE-----"}]}' \
+  -H 'x-ig-bandwidth-speed-kbps: -1.000' \
+  -H 'x-ig-bandwidth-totalbytes-b: 0' \
+  -H 'x-ig-bandwidth-totaltime-ms: 0' \
+  -H 'x-ig-client-endpoint: com.bloks.www.caa.login.home_template:com.bloks.www.caa.login.home_template' \
+  -H 'x-ig-capabilities: 3brTv10=' \
+  -H 'x-ig-connection-type: WIFI' \
+  -H 'x-ig-device-id: 6c7d09ba-1663-4191-b272-3b446c6fe2d6' \
+  -H 'x-ig-device-locale: en_GB' \
+  -H 'x-ig-family-device-id: 0957c182-d57e-493c-8972-8298ed95972e' \
+  -H 'x-ig-is-foldable: false' \
+  -H 'x-ig-mapped-locale: en_GB' \
+  -H 'x-ig-timezone-offset: 21600' \
+  -H 'x-ig-www-claim: 0' \
+  -H 'x-mid: albg2AABAAF-hzims0pMfcsT_Mo_' \
+  -H 'x-pigeon-rawclienttime: 1784078560.949' \
+  -H 'x-pigeon-session-id: UFS-915ae329-99d6-45bb-933e-a8c86fc7df70-0' \
+  -H 'x-tigon-is-retry: False' \
+  -H 'accept-encoding: zstd' \
+  -H 'content-length: 4315' \
+  -H 'user-agent: Barcelona 438.0.0.29.88 Android (35/15; 420dpi; 1080x2392; Nothing; A001; Galaga; mt6878; en_GB; 1017442024)' \
+  -H 'x-fb-conn-uuid-client: ffabedaf42d61be44e156f02d99ae9df' \
+  -H 'x-fb-http-engine: Tigon/MNS/TCP'  \
