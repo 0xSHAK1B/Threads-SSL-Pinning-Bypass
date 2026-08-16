@@ -1,113 +1,112 @@
-# Threads SSL Pinning Bypass 2026 – Intercept HTTPS Traffic on Android (Root & No Root)
+<div align="center">
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
-![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
+# 🔓 Threads Android SSL Pinning Bypass
 
-> **Bypass SSL certificate pinning in Meta Threads on Android** to intercept, capture, and analyze HTTPS network traffic using proxy tools like Burp Suite, mitmproxy, Reqable, or Proxypin — works on both **rooted** and **non-rooted** devices in 2026.
+**Decrypt and inspect Threads' full HTTPS traffic on a stock, non-rooted Android device — 2026 working build.**
 
----
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v442.0.0)-000000?style=for-the-badge&logo=threads&logoColor=white)](../../releases/latest)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
-## Overview of this project
+![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Threads-v442.0.0.46.79-000000?style=flat-square&logo=threads&logoColor=white)
+![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
-Meta's **Threads** app enforces **SSL/TLS certificate pinning** to prevent third-party proxy tools from intercepting its HTTPS traffic. This repository provides a **pre-patched Threads APK** with certificate pinning disabled, enabling security researchers, penetration testers, and developers to capture and inspect Threads network requests and API responses.
+🔓 Pinning defeated&nbsp;&nbsp;·&nbsp;&nbsp;🔐 Login capture&nbsp;&nbsp;·&nbsp;&nbsp;📰 Feed & posts&nbsp;&nbsp;·&nbsp;&nbsp;📱 No root
 
----
+<img width="578" height="1280" alt="Threads Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/1927e854-3f30-4ece-af5f-f4c0042777d9" />
 
-## Proof of Concept
+</div>
 
-
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/f4371b0e-93bf-46c6-818e-679ce53f8faf" />
-
-📸 [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/f7f5cff7-c2d7-4eeb-b5a8-ba578673b834)
-
----
-
-## 📋 Supported Threads Version
-
-| App | Version | Status |
-|-----|---------|--------|
-| Threads | **440.0.0.47.86** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
-
-> For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
-
----
-## ⚙️ Supported Architectures
-
-| Architecture | Support |
-|---|---|
-| `arm64-v8a` | ✅ |
-| `x86_64` | ✅ |
+> [!TIP]
+> **Download the patched APK** from the **[Releases](../../releases/latest)** section — or message me on **[Telegram](https://t.me/MUH4MM4DSH4KIB)** for the newest build or another version.
 
 ---
 
-## Requirements
+## 📦 Build
 
-### Option A: Physical Android Device (No Root Required)
-
-- Android phone or tablet running **Android 7.0+**
-- MITM proxy tool installed on the same device or on your local network:
-  - [**Reqable**](https://reqable.com) — modern, feature-rich HTTP/HTTPS debugging proxy
-  - [**Proxypin**](https://proxypin.com) — free and lightweight traffic capture tool
-
-### Option B: Android Emulator on PC
-
-- Windows, macOS, or Linux PC with an Android emulator:
-  - [**Nox Player**](https://www.bignox.com/) — popular Android emulator for Windows/Mac
-  - [**LDPlayer**](https://www.ldplayer.net/) — fast Android emulator optimized for performance
-- Desktop MITM proxy tool:
-  - [**Burp Suite**](https://portswigger.net/burp) — industry-standard web security testing proxy
-  - [**mitmproxy**](https://mitmproxy.org/) — open-source interactive HTTPS proxy
-  - [**Reqable**](https://reqable.com) — cross-platform HTTP debugging proxy
-  - [**Proxypin**](https://proxypin.com) — lightweight proxy with mobile support
+| App | Package | Version | ABI |
+|:----|:--------|:-------:|:---:|
+| **Threads for Android** | `com.instagram.barcelona` | `442.0.0.46.79` | `arm64-v8a` |
 
 ---
 
-## How to Bypass Threads SSL Pinning (Step-by-Step)
+## 🎯 What You Can Capture
 
-### Step 1: Download the Patched APK
-
-Download the SSL pinning bypassed Threads APK from this repository's [Releases](../../releases) section. Choose the correct architecture for your device:
-- **`arm64-v8a`** — Most modern Android phones and tablets
-- **`x86_64`** — Android emulators (Nox Player, LDPlayer, etc.)
-
-### Step 2: Install the Patched Threads APK
-
-- **Uninstall** the official Threads app if already installed (signatures will conflict)
-- **Enable** "Install from Unknown Sources" in your Android settings
-- **Install** the downloaded patched APK
-
-### Step 3: Set Up Your Proxy Tool
-
-1. Open your proxy tool (Burp Suite, mitmproxy, Reqable, or Proxypin)
-2. **Export** the proxy's CA certificate
-3. **Install and trust** the CA certificate on your Android device:
-   - Go to **Settings → Security → Install certificates from storage**
-   - On Android 11+, you may need to move the cert to the system trust store (root required) or use your proxy tool's built-in certificate installer
-4. **Configure** your device's Wi-Fi proxy settings to point to the proxy
-
-### Step 4: Capture Threads HTTPS Traffic
-
-1. Launch the patched **Threads** app
-2. Browse, post, or interact normally
-3. Watch **decrypted HTTPS requests and responses** appear in your proxy tool in real time
-
+| Surface | Exposed in cleartext |
+|:--------|:---------------------|
+| 🔐 **Login via Instagram** | auth token exchange and session handling |
+| 📰 **Feed & timeline** | for-you / following ranking and GraphQL queries |
+| ✍️ **Posts & replies** | create, like, repost, and quote endpoints |
+| 👤 **Profile & follows** | profile data and follow-graph requests |
+| 🖼️ **Media** | image/video upload and CDN delivery |
+| 📊 **Telemetry** | device telemetry and A/B assignments |
 
 ---
 
-## Related Projects
+## ⚙️ Requirements
 
-- [**Instagram SSL Pinning Bypass**](https://github.com/0xSHAK1B/Instagram-SSL-Pinning-Bypass) — Intercept Threads HTTPS traffic on Android
-- [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) — Capture Facebook API requests and responses
-- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass Messenger certificate pinning for traffic analysis
-- [**Meta Business Suite SSL Pinning Bypass**](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) — Decrypt Meta Business Suite HTTPS traffic on Android
-- 
+**Android 10–14+** on an ARM device (`arm64-v8a` — virtually all modern phones), plus a MITM proxy — Burp Suite, mitmproxy, Reqable, or Proxypin.
+
+> [!NOTE]
+> **No root required** — install the patched APK and go (rooted devices work too). On emulators (Nox / LDPlayer / MEmu / BlueStacks), enable **ARM translation** — this build ships `arm64` native libraries, so x86/x86_64 emulators need the translation layer.
 
 ---
 
-## Contact & Latest Builds
+## 🚀 Setup
 
-For the **most up-to-date** SSL pinning bypassed Threads APK and support:
+1. **Uninstall** the official Threads app *(signatures conflict)*.
+2. **Download** the patched APK from [Releases](../../releases/latest) and **install** it on your device or emulator.
+3. **Trust your proxy CA** — **Settings → Security → Encryption & credentials → Install a certificate → CA certificate**.
+4. **Set the Wi-Fi proxy** — **Settings → Wi-Fi → (network) → Proxy → Manual** → your PC's IP and port.
+5. **Launch Threads** — decrypted HTTPS streams into your proxy in real time.
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
+> [!WARNING]
+> If traffic doesn't appear immediately, **force-stop and relaunch** the app.
+
+---
+
+<div align="center">
+
+## 💼 Need a Custom Bypass?
+
+**Custom SSL pinning bypass · automated patching scripts · full reverse-engineering projects** — any Android or iOS app.
+
+[![Request Custom Work](https://img.shields.io/badge/Message_me_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+
+</div>
+
+---
+
+> [!NOTE]
+> **Disclaimer** — For educational and security-research purposes only. Not affiliated with, endorsed by, or connected to Meta, Threads, or Instagram. All trademarks belong to their respective owners. Only analyze traffic on accounts and devices you own or are authorized to test. Provided "as is", without warranty of any kind.
+
+---
+
+## 🔗 Related Projects
+
+| App | Platform | Repository |
+|-----|----------|------------|
+| Threads | iOS | [Threads iOS SSL Pinning Bypass](https://github.com/0xSHAK1B/Threads-iOS-SSL-Pinning-Bypass) |
+| Instagram | Android | [Instagram SSL Pinning Bypass](https://github.com/0xSHAK1B/Instagram-SSL-Pinning-Bypass) |
+| Edits | Android | [Edits SSL Pinning Bypass](https://github.com/0xSHAK1B/Edits-SSL-Pinning-Bypass) |
+| Instants | Android | [Instants SSL Pinning Bypass](https://github.com/0xSHAK1B/Instants-SSL-Pinning-Bypass) |
+| Facebook | Android | [Facebook SSL Pinning Bypass](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) |
+| TikTok | Android | [TikTok SSL Pinning Bypass](https://github.com/0xSHAK1B/TIKTOK-SSL-Pinning-Bypass) |
+
+---
+
+<div align="center">
+
+### 💖 Support This Project
+
+Please **⭐ star the repo** — it helps others find it and keeps the builds coming.
+
+| Currency | Address |
+|:---------|:--------|
+| **BTC / ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
+| **USDT (TRC-20)** | `THssAZhUQEEsw15211rAaRLGRjSWXMX4PW` |
+
+[![Telegram](https://img.shields.io/badge/@MUH4MM4DSH4KIB-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+
+</div>
