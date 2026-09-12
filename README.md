@@ -4,17 +4,17 @@
 
 **Decrypt and inspect Threads' full HTTPS traffic on a stock, non-rooted Android device — 2026 working build.**
 
-[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v442.0.0)-000000?style=for-the-badge&logo=threads&logoColor=white)](../../releases/latest)
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v446.0.0.32.78)-000000?style=for-the-badge&logo=threads&logoColor=white)](../../releases/latest)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
 ![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Threads-v442.0.0.46.79-000000?style=flat-square&logo=threads&logoColor=white)
+![Version](https://img.shields.io/badge/Threads-v446.0.0.32.78-000000?style=flat-square&logo=threads&logoColor=white)
 ![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
 🔓 Pinning defeated&nbsp;&nbsp;·&nbsp;&nbsp;🔐 Login capture&nbsp;&nbsp;·&nbsp;&nbsp;📰 Feed & posts&nbsp;&nbsp;·&nbsp;&nbsp;📱 No root
 
-<img width="578" height="1280" alt="Threads Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/1927e854-3f30-4ece-af5f-f4c0042777d9" />
+<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/34ac7693-ef99-459d-9da4-86bcb39e06f2" />
 
 </div>
 
@@ -27,7 +27,7 @@
 
 | App | Package | Version | ABI |
 |:----|:--------|:-------:|:---:|
-| **Threads for Android** | `com.instagram.barcelona` | `442.0.0.46.79` | `arm64-v8a` |
+| **Threads for Android** | `com.instagram.barcelona` | `446.0.0.32.78` | `arm64-v8a` |
 
 ---
 
