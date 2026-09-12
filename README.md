@@ -14,7 +14,7 @@
 
 🔓 Pinning defeated&nbsp;&nbsp;·&nbsp;&nbsp;🔐 Login capture&nbsp;&nbsp;·&nbsp;&nbsp;📰 Feed & posts&nbsp;&nbsp;·&nbsp;&nbsp;📱 No root
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/34ac7693-ef99-459d-9da4-86bcb39e06f2" />
+<img width="578" height="1280" alt="Image" src="https://github.com/user-attachments/assets/34ac7693-ef99-459d-9da4-86bcb39e06f2" />
 
 </div>
 
